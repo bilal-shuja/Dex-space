@@ -1,0 +1,447 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #F3F3FB;
+}
+
+.chat-heading {
+font-family: "Proxima Nova";
+/* font-style: italic; */
+font-weight: 300;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+display: inline-block;
+white-space: nowrap;
+color: #0D1C2E;
+opacity: 0.8;
+
+
+}
+.recent-chat-select{
+  font-family: "Proxima Nova";
+  border: none;
+/* font-style: italic; */
+font-weight: 300;
+font-size: 18px;
+line-height: 26px;
+  color:#707C97;
+}
+
+.search-card{
+  background: #FFFFFF;
+border-radius: 6px;
+}
+.inner-addon { 
+  position: relative; 
+}
+
+/* style icon */
+ .fa-magnifying-glass {
+/* position: absolute; */
+margin-right:  18px;
+padding: 8px;
+
+pointer-events: none;
+color: #707C97;
+}
+
+.left-addon input{
+  font-family: "Proxima Nova";
+  /* font-style: italic; */
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  /* margin-left:  18px; */
+
+  padding-left:  38px; 
+  text-transform: capitalize;
+  opacity: 0.7;
+  border:none;
+  }
+
+.create-new-chat-btn{
+  
+  font-family: "Proxima Nova";
+  /* font-style: italic; */
+font-weight: 300;
+color: #FFFFFF;
+text-transform: capitalize;
+background: linear-gradient(92.68deg, #7CB8F7 0%, #2A8BF2 100%);
+box-shadow: 6px 6px 25px rgba(42, 139, 242, 0.15), 4px 4px 25px rgba(42, 139, 242, 0.05), 10px 6px 25px rgba(42, 139, 242, 0.15);
+border-radius: 6px;
+}
+
+.create-dex-space-btn{
+margin-top: 5px;
+font-family: "Proxima Nova";
+/* font-style: italic; */
+font-weight: 300;
+color: #FFFFFF;
+background: linear-gradient(92.68deg, #37D5D6 0%, #36096D 81.25%, #2A8BF2 100%);
+box-shadow: 6px 6px 25px rgba(42, 139, 242, 0.15), 4px 4px 25px rgba(42, 139, 242, 0.05), 10px 6px 25px rgba(42, 139, 242, 0.15);
+border-radius: 6px;
+}
+
+.chat-card{
+  border-radius: 7px;
+  width:27em;
+  cursor: pointer;
+  /* box-shadow: 1px 1px 16px #C7D9ED; */
+}
+@media only screen and (min-width: 320px) and (max-width: 479px){
+  .chat-card{
+    border-radius: 7px;
+    width:23em;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px){
+  .chat-card{
+    border-radius: 7px;
+    width:30em;
+  }
+}
+
+@media  (min-width: 769px) and (max-width: 1024px){
+  .chat-card{
+    border-radius: 7px;
+    width:22em;
+  }
+}
+@media  (min-width: 1025px) and (max-width: 1200px){
+  .chat-card{
+    border-radius: 7px;
+    width:22em;
+  }
+}
+
+.scroll-view{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 20em;
+
+}
+
+
+
+  .scrollbar-secondary::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    /* background-color: #F5F5F5; */
+    border-radius: 10px; 
+  }
+    
+    .scrollbar-secondary::-webkit-scrollbar {
+    width: 5px;
+  
+    /* background-color: #F5F5F5;  */
+  }
+    
+    .scrollbar-secondary::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #B7BDCB; 
+   
+  }
+
+
+
+  .scroll-view-two{
+    overflow-y: scroll;
+    height: 50vh;
+    /* width:50em; */
+  
+  }
+  
+    .scrollbar-secondary-two::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+      border-radius: 10px; 
+    }
+      
+      .scrollbar-secondary-two::-webkit-scrollbar {
+      width: 5px;
+    }
+      
+      .scrollbar-secondary-two::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+      background-color: #B7BDCB; 
+    }
+  
+
+.dex-space-chat-heading-two{
+    
+    padding: 16px;
+    background: #FAFBFF;
+    border-radius: 6px 6px 0px 0px;
+
+}
+
+.dex-space-chat-heading-two .main-header{
+  
+  font-family: "Proxima Nova";
+  font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 25px;
+color: #0D1C2E;
+}
+
+.last-seen{
+
+font-family: "Proxima Nova";
+/* font-style: italic; */
+font-weight: 300;
+font-size: 16px;
+line-height: 22px;
+color: #2A8BF2;
+opacity: 0.6;
+}
+.last-seen-two{
+  font-family: "Proxima Nova";
+  /* font-style: italic; */
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  color: #2A8BF2;
+  opacity: 0.6;
+  }
+.clip-btn , .dots-btn{
+  background: #FFFFFF;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.03), 0px 7px 25px rgba(42, 139, 242, 0.03), 0px 5px 25px rgba(42, 139, 242, 0.07);
+}
+.message-card{
+  background: linear-gradient(90.54deg, #60A9F6 0%, #2A8BF2 100%);
+
+box-shadow: 10px 10px 25px rgba(42, 139, 242, 0.1), 15px 15px 35px rgba(42, 139, 242, 0.05), 10px 10px 50px rgba(42, 139, 242, 0.1);
+border-radius: 0px 10px 10px 10px;
+}
+.message-card-two{
+  background: #FFFFFF;
+border: 1px solid rgba(112, 124, 151, 0.25);
+box-shadow: 10px 10px 25px rgba(112, 124, 151, 0.05), 15px 15px 35px rgba(112, 124, 151, 0.05);
+}
+
+.text-two{
+  font-family: "Proxima Nova";
+  /* font-style: italic; */
+font-weight: 300;
+font-size: 16px;
+color: #707C97;
+}
+.card-text{
+  font-family: "Proxima Nova";
+  /* font-style: italic; */
+font-weight: 300;
+font-size: 16px;
+text-transform: lowercase;
+
+color: #FFFFFF;
+}
+.card-text-two{
+  font-family: "Proxima Nova";
+  /* font-style: italic; */
+font-weight: 300;
+font-size: 14px;
+text-transform: lowercase;
+
+color: rgba(255, 255, 255, 0.7);
+
+}
+.plus-btn{
+  background: linear-gradient(325.78deg, #2A8BF2 14.76%, #7CB8F7 87.3%);
+}
+#my-file{
+  /* visibility: hidden;  */
+  display: none;
+}
+
+
+.type-area-upper-line{
+  border-top: 2px;
+  margin-top: 4em;
+  background: rgba(112, 124, 151, 0.15);
+  border-radius: 2px;
+  width: 90%;
+}
+
+.type-message{
+  font-family: "Proxima Nova";
+  /* font-style: italic; */
+font-weight: 300;
+font-size: 17px;
+/* margin-top: 0.8em; */
+text-transform: capitalize;
+
+color: rgba(112, 124, 151, 0.5);
+}
+
+.message-time{
+  font-family: "Proxima Nova";
+  /* font-style: italic; */
+font-weight: 300;
+font-size: 14px;
+/* margin-left: 10em; */
+color: rgba(112, 124, 151, 0.7);
+
+}
+
+.new-style-zip{
+  font-family: 'Proxima Nova';
+/* font-style: italic; */
+font-weight: 300;
+font-size: 16px;
+
+
+color: #2A8BF2;
+
+}
+
+.video-chat-card{
+  background: rgba(0, 195, 5, 0.25);
+border-radius: 20px;
+}
+
+.hr-lines{
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.hr-lines:before{
+  content:" ";
+  height: 2px;
+  width: 230px;
+  background: rgba(112, 124, 151, 0.15);
+  border-radius: 2px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.hr-lines:after{
+  content:" ";
+  height: 2px;
+  width: 230px;
+  background: rgba(112, 124, 151, 0.15);
+  border-radius: 2px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+  .hr-lines:before{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: rgba(112, 124, 151, 0.15);
+    border-radius: 2px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  
+  .hr-lines:after{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: rgba(112, 124, 151, 0.15);
+    border-radius: 2px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px){
+  .hr-lines:before{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: rgba(112, 124, 151, 0.15);
+    border-radius: 2px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  
+  .hr-lines:after{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: rgba(112, 124, 151, 0.15);
+    border-radius: 2px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  
+}
+
+@media  (min-width: 769px) and (max-width: 1024px){
+  .hr-lines:before{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: rgba(112, 124, 151, 0.15);
+    border-radius: 2px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  
+  .hr-lines:after{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: rgba(112, 124, 151, 0.15);
+    border-radius: 2px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  
+}
+@media  (min-width: 1025px) and (max-width: 1200px){
+  .hr-lines:before{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: rgba(112, 124, 151, 0.15);
+    border-radius: 2px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  
+  .hr-lines:after{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: rgba(112, 124, 151, 0.15);
+    border-radius: 2px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  
+}
