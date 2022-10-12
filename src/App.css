@@ -106,13 +106,13 @@ border-radius: 6px;
   }
 }
 
-@media  (min-width: 769px) and (max-width: 1024px){
+@media only screen and  (min-width: 769px) and (max-width: 1024px){
   .chat-card{
     border-radius: 7px;
     width:22em;
   }
 }
-@media  (min-width: 1025px) and (max-width: 1200px){
+@media only screen and   (min-width: 1025px) and (max-width: 1200px){
   .chat-card{
     border-radius: 7px;
     width:22em;
